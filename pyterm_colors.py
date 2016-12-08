@@ -1,7 +1,7 @@
 class color:
 
 # Part one: To be used as :
-# from pylinux-colors import * 
+# from pyterm_colors import * 
 # print color.red + "your-text"
 
     default = '\033[39m'
@@ -15,10 +15,12 @@ class color:
     white = '\033[00m'
 
 # Part two: To be used as :
-# from pylinux-colors import *
-# color.set(green)
+# from pyterm_colors import *
+# c = color()
+# c.setc("green")
 
     def setc(self, colo):
+        colo = colo.lower()
         if colo == "default":
             print self.default
         elif colo == "black":
