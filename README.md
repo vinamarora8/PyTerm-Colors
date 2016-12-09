@@ -9,3 +9,8 @@ Makes the world a better place by easing the process of making a colored termina
 + 1. ```c.setc("blue")```
 + 2. ```print c.blue```
 + In either case, all the following lines will be blue colored untill another such statement is called
+
+#### For example:
+
+![Example Code](code.png)
+![Output of example code](output.png)
